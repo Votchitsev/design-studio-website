@@ -342,3 +342,37 @@ header {
     color: #787878;
     font-size: 14.2px;
 }
+
+.testimonials {
+    height: 500px;
+    width: 100%;
+    background-color: #10c9c3;
+}
+
+.testimonials__quote {
+    display: block;
+    font-size: 25.5px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 180px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.testimonials__signature {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12.7px;
+    font-weight: 800;
+}
+
+.testimonials__scroll {
+    margin-top: 107px;
+    text-align: center;
+}
