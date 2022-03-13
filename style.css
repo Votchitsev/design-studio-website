@@ -468,3 +468,65 @@ header {
     cursor: pointer;
     font-size: 12px;
 }
+
+footer {
+    width: 100%;
+    height: 284px;
+    background-color: #442323;
+    display: flex;
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    top: 100px;
+    bottom: 95px;
+    right: 96px;
+    left: 96px;
+    display: flex;
+}
+
+.footer-content__copyright__title {
+    font-size: 17px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.footer-content__copyright__content {
+    color: #bcbcbc;
+    margin-top: 13px;
+    margin-right: 246px;  
+}
+
+.footer-content__contacts {
+    color: #bcbcbc;
+    margin-right: 145px;
+}
+
+.footer-content__menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-content__menu__item {
+    display: block;
+    width: 112px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #bcbcbc;
+}
+
+.footer-content__socials {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+}
+
+.footer-content__socials__item {
+    text-transform: capitalize;
+    display: block;
+    text-decoration: none;
+    color: #bcbcbc;
+}
